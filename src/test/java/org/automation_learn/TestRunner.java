@@ -35,6 +35,7 @@ public class TestRunner extends BaseClass{
 		waits();
 		WebElement email = driver.findElement(By.name("emailid"));
 		email.sendKeys("usermail");
+		System.out.println("Added usermail in the website");
 		Thread.sleep(2000);
 		/*
 		 * System.out.println(radio.isSelected()); Assert.assertTrue(false);
