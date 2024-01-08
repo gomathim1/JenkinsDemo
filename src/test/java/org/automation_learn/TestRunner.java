@@ -36,7 +36,6 @@ public class TestRunner extends BaseClass{
 		WebElement email = driver.findElement(By.name("emailid"));
 		email.sendKeys("usermail");
 		System.out.println("Added usermail in the website");
-		System.out.println("Test webhook");
 		System.out.println("Test webhook 2");
 		Thread.sleep(2000);
 		/*
